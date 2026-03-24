@@ -1,2 +1,2 @@
-# FS2020-2024_GE_Link
-merges FS2020-2024 with GE
+# FS2020-2024_Google Earth
+merges FS2020-2024 with Google Earth. 
