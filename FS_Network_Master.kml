@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>FS Network Sync (Host)</name> <open>1</open>
+        <Folder><name>My Aircraft</name><open>1</open>
+            <NetworkLink><name>1. Moving Map (Auto-Zoom)</name><visibility>1</visibility><flyToView>1</flyToView>
+                <Link><href>Local_Files/cam.kml</href><refreshMode>onInterval</refreshMode><refreshInterval>0.5</refreshInterval></Link></NetworkLink>
+            <NetworkLink><name>2. Position Icon</name><visibility>1</visibility>
+                <Link><href>Local_Files/pos.kml</href><refreshMode>onInterval</refreshMode><refreshInterval>0.5</refreshInterval></Link></NetworkLink>
+            <NetworkLink><name>3. Flight Trail</name><visibility>1</visibility>
+                <Link><href>Local_Files/trl.kml</href><refreshMode>onInterval</refreshMode><refreshInterval>0.5</refreshInterval></Link></NetworkLink>
+            <NetworkLink><name>4. Telemetry</name><visibility>1</visibility>
+                <Link><href>Local_Files/lab.kml</href><refreshMode>onInterval</refreshMode><refreshInterval>1</refreshInterval></Link></NetworkLink>
+        </Folder>
+        <Folder><name>Partner</name><open>1</open>
+            <NetworkLink><name>Remote Plane</name><Link><href>Remote_Files/Remote_Pos.kml</href><refreshMode>onInterval</refreshMode><refreshInterval>0.5</refreshInterval></Link></NetworkLink>
+        </Folder>
+</Document></kml>
