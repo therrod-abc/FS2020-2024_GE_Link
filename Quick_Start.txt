@@ -1,0 +1,67 @@
+=======================================================================
+               MSFS GEOGRAPHY FLIGHT SYNC - VERSION 1.0                
+=======================================================================
+
+    1. QUICK START GUIDE  All tracks are recorded and distance travel displayed in the HUD.  
+	after each session you must delete or toggle off previous flights GE sidebar.  book keeping 
+	
+	First time run after unzipping.  must activate the created FS_Network_Master.kml to green light the sidebar. 
+	
+    ---------------------------------------------------------------
+    * EXTRACT: Unzip this entire folder to your Desktop or a 
+               dedicated flight folder.
+    * LAUNCH:  Double-click "config.bat" to start. or edit config.ini manually
+    * VIEW:    Open "Google Earth Pro" to see your aircraft.  Only after a flight is loaded.
+
+    2. OPERATING MODES
+    ---------------------------------------------------------------
+    This program is a 3-in-1 utility that adapts to how you fly:
+
+        [SOLO MODE] - (Stand-Alone Tracker)
+        Choose "Guest" in the launcher and enter your own local IP
+        (127.0.0.1)  The program will track 
+        your flight privately for personal review.
+
+        [NETWORK MODE] - (Collaborative )
+        * HOST : Select "Host" to start the central server.
+        * GUEST  Select "Guest" and enter the Host IP.
+          This will "Push" your position to the host and "Pull" 
+          the hosts position onto your map in real-time.
+
+    3. GOOGLE EARTH SIDEBAR (What to look for)
+    ---------------------------------------------------------------
+    Check the "Temporary Places" folder in the left sidebar:
+
+        > LIVE FLIGHT PATH: 
+          The active 3D line showing exactly where you have flown. 
+		  can be toggled on or off.  keeps recording either way
+
+        > AIRCRAFT ICON: 
+          A 3D model representing your live location and heading.
+
+        > FLIGHT HUD: 
+          On-screen text showing Airspeed, Altitude, and Heading. Can be toggled on or off
+
+        > REFRESH LINK: 
+          The "engine" fetching data every 0.5 seconds. Ensure this 
+          remains checked to keep the map moving.
+
+    4. TROUBLESHOOTING & SAFETY
+    ---------------------------------------------------------------
+    * WINDOWS WARNING: 
+      If a blue "Windows Protected Your PC" box appears, click 
+      "More Info" and then "Run Anyway." This is normal for 
+      independent flight tools.
+
+    * CONNECTION ERRORS: 
+      Ensure you are actually in the cockpit of your aircraft in 
+      MSFS before starting the program.
+
+    * FIREWALLS: 
+      If flying with others, ensure the "Host" has allowed Port 80 
+      through their local Windows Firewall settings. or configure to 
+	  another open port that has been forwarded.
+
+=======================================================================
+   Designed for Geography Education and Flight Simulation Training
+=======================================================================
